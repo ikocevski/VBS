@@ -1,1 +1,34 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/ikocevski/VBS/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/ikocevski/VBS/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/ikocevski/VBS/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/ikocevski/VBS/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Ivan Kocevski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Ivan" ;
+  foaf:family_name "Kocevski" ;
+  foaf:nick "Kocka" ;
+  foaf:mbox_sha1sum "97b47128fb7bd8d4c5493e15ead9c10ac78bc8c4" ;
+  foaf:phone <tel:+38970369403> ;
+  foaf:workplaceHomepage <https://www.finki.ukim.mk/en> ;
+  foaf:workInfoHomepage <https://finki.ukim.mk/en/content/software-engineering-and-information-systems> ;
+  foaf:schoolHomepage <https://rjk.edu.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Robert Ilievski" ;
+    foaf:mbox_sha1sum "e91bb7c64ca0aec10ebfebe2e2d0408dcad505a8" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl?fbclid=IwAR1lrihR3bIPEddH63F8yG_y0HDY01ZzjbWHm8qDdvC64KAeNZTp9jwrc9I>
+  ], [
+    a foaf:Person ;
+    foaf:name "Filip Tanevski" ;
+    foaf:mbox_sha1sum "39dff9f59ce854daee5ff30322c90180d31431a0" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/ftanevski/WBS_D5_CreatingLinkedData/main/foaf.ttl#>
+  ] .
