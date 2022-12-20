@@ -25,7 +25,7 @@
     a foaf:Person ;
     foaf:name "Robert Ilievski" ;
     foaf:mbox_sha1sum "e91bb7c64ca0aec10ebfebe2e2d0408dcad505a8" ;
-    rdfs:seeAlso <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl?fbclid=IwAR1lrihR3bIPEddH63F8yG_y0HDY01ZzjbWHm8qDdvC64KAeNZTp9jwrc9I>
+    rdfs:seeAlso <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl>
   ], [
     a foaf:Person ;
     foaf:name "Filip Tanevski" ;
